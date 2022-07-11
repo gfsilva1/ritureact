@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+  background: #071509;
+  color: whitesmoke;
+  align-items: center;
+}
+
+.header img {
+  width: 4rem;
+  height: 2rem;
+  align-items: center;
+  margin-left: 60px;
+}
+
+
+h1 {
+  font-size: 1rem;
+  align-items: center;
+}

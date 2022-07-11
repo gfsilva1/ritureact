@@ -1,0 +1,24 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../assets/passistas.png');
+  background-size: cover;
+  height: 50vh;
+  color: whitesmoke;
+  justify-content: center;
+}
+
+h1 {
+  margin-left: 60px;
+}
+
+strong {
+  color: #65CB81;
+}
+
+p {
+  margin-left: 60px;
+  border: solid #65CB81;
+  border-radius: 8px;
+  width: 6rem;
+}
