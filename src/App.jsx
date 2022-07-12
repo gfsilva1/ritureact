@@ -1,38 +1,20 @@
 import { Banner } from './components/Banner'
 import { Carousel } from './components/Carousel'
 import { Header } from './components/Header'
+import { Modal } from './components/Modal';
 import { Ritmo } from './components/Ritmo';
-
-const ritmos = [
-  {
-    id: 1,
-    name: 'Jongo',
-    description: 'Lochas dochas'
-  },
-  {
-    id: 2,
-    name: 'Cururu',
-    description: 'Lochas dochas'
-  },
-];
+import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 export function App() {
-
+  const [openModal, setOpenModal] = useState(false)
   return (
     <div>
       <Header />
       <Banner />
       <Carousel />
-      <div>
-        {ritmos.map(ritmo => {
-          return (
-            <Ritmo
-              name={ritmo.name}
-              description={ritmo.description}
-            />
-          )
-        })}
-      </div>
+      <Ritmo />
+      <Link to="/learn">Learn</Link>
     </div>
   )
 }
