@@ -3,6 +3,7 @@ import logo from '../assets/logo.svg'
 import brazil from '../assets/brazil.png'
 
 import { MagnifyingGlass }from 'phosphor-react'
+import { User } from "phosphor-react";
 
 export function Header() {
   return(
@@ -12,9 +13,11 @@ export function Header() {
       <h1>Academy</h1>
       <h1>Movies</h1>
       <h1>About us</h1>
-      <MagnifyingGlass />
-      <img src={brazil} alt="" />
-
+      <div className={styles.side}>
+        <MagnifyingGlass />
+        <img src={brazil} alt="" />
+        <User />
+      </div>
     </div>
   )
 }

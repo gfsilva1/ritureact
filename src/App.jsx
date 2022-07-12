@@ -5,11 +5,11 @@ import { Modal } from './components/Modal';
 import { Ritmo } from './components/Ritmo';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
+import styles from './App.module.css'
 
 export function App() {
-  const [openModal, setOpenModal] = useState(false)
   return (
-    <div>
+    <div class={styles.body}>
       <Header />
       <Banner />
       <Carousel />

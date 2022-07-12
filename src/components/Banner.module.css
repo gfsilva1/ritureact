@@ -8,17 +8,32 @@
   justify-content: center;
 }
 
-h1 {
+.slogan {
+  flex-direction: column;
+  color:rgb(245, 245, 245);
   margin-left: 60px;
+  font-size: 2rem;
+  font-family: Bebas Neue,Regular;
+  width: 35rem;
 }
 
+button {
+  margin-left: 60px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: solid #65CB81;
+  border-width: thin;
+  color: whitesmoke;
+}
+
+button:hover {
+  background: #65CB81 ;
+}
 strong {
   color: #65CB81;
 }
 
 p {
   margin-left: 60px;
-  border: solid #65CB81;
-  border-radius: 8px;
-  width: 6rem;
+  width: 35rem;
 }

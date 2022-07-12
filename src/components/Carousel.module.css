@@ -1,3 +1,14 @@
+.regions {
+  display: flex;
+  background: #021903;
+  justify-content: space-around;
+  padding: 5px;
+}
+.regions:hover {
+  color: white;
+  opacity: 1.0;
+}
+
 .container {
   display: flex;
   padding: 0 55px;

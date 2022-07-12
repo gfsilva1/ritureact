@@ -4,10 +4,16 @@ export function Banner() {
   return (
     <div>
       <div className={styles.banner}>
-        <h1>FEEL THE SENSATION OF <strong>CABOCLINHO</strong> ANYWHERE</h1>
+        <div className={styles.slogan}>
+          <h3>FEEL THE SENSATION OF</h3>
+          <h3><strong>CABOCLINHO</strong> ANYWHERE</h3>
+        </div>
+        <div>
+          <p>Wide selection of RITUS with the best audio and visual quality </p>
+        </div>
         <div className={styles.button}>
-          <p>Join Now</p>
-          <p>Learn more</p>
+          <button>Join Now</button>
+          <button>Learn more</button>
         </div>
       </div>
     </div>
