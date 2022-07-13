@@ -1,18 +1,15 @@
 import styles from './Modal.module.css'
 
-export function Modal() {
+export function Modal( ){
   return(
     <div className={styles.modalBackground}>
-      <div className={styles.container}>
-        <button> x </button>
-        <div className={styles.title}></div>
-          <h1>Are you sure?</h1>
-        <div className={styles.body}>
-          <p>Go on man</p>
+      <div> className={styles.modalContainer}
+        <button> X </button>
+        <div className={styles.title}>
+          <h1>Movie Title</h1>
         </div>
-        <div className={styles.footer}>
-          <button>Cancel</button>
-          <button>Continue</button>
+        <div className={styles.body}>
+          <h1>Movie image</h1>
         </div>
       </div>
     </div>

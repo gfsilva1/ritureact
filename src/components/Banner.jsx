@@ -11,9 +11,9 @@ export function Banner() {
         <div>
           <p>Wide selection of RITUS with the best audio and visual quality </p>
         </div>
-        <div className={styles.button}>
-          <button>Join Now</button>
-          <button>Learn more</button>
+        <div className={styles.but}>
+          <a href="">Join Now</a>
+          <a href="">Learn more</a>
         </div>
       </div>
     </div>
